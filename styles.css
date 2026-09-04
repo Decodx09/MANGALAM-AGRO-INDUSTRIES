@@ -259,25 +259,27 @@ a{text-decoration:none;color:inherit}
   .nav{flex-wrap:wrap}
   .nav-links,.nav-right{display:none}
   .hamburger{display:flex;order:2}
-  .nav.open{box-shadow:0 14px 30px rgba(23,70,33,.14)}
+  .nav.open{gap:0;box-shadow:0 14px 30px rgba(23,70,33,.14);padding-bottom:1rem}
   /* hamburger morphs into an X */
   .nav.open .hamburger span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
   .nav.open .hamburger span:nth-child(2){opacity:0}
   .nav.open .hamburger span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
-  /* collapsible menu: links + pincode/cart stack full-width below the bar */
+  /* collapsible menu: links + pincode/cart stack full-width below the bar,
+     all sharing the logo's left edge */
   .nav.open .nav-links{
     display:flex;flex-direction:column;gap:0;
-    width:100%;order:4;padding:.4rem 0 0;
+    width:100%;order:4;margin-top:.7rem;padding-top:.2rem;
+    border-top:1px solid rgba(23,70,33,.12);
   }
   .nav.open .nav-links a{
-    font-size:1.02rem;font-weight:600;padding:.85rem .2rem;
+    font-size:1.02rem;font-weight:600;padding:.9rem 0;
     border-bottom:1px solid rgba(23,70,33,.10);
     transition:color .2s ease,padding-left .2s ease;
   }
-  .nav.open .nav-links a:hover,.nav.open .nav-links a:active{color:var(--green);padding-left:.5rem}
+  .nav.open .nav-links a:hover,.nav.open .nav-links a:active{color:var(--green);padding-left:.4rem}
   .nav.open .nav-right{
     display:flex;order:5;width:100%;justify-content:space-between;align-items:center;
-    gap:1rem;padding:1.1rem .2rem .3rem;
+    gap:1rem;padding:1rem 0 0;
   }
   .nav.open .pincode{
     display:inline-flex;align-items:center;height:42px;line-height:1;
