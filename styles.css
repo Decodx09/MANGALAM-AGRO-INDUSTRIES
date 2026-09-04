@@ -12,7 +12,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth;overflow-x:hidden}
 body{
-  font-family:'Quicksand',sans-serif;
+  font-family:'DM Sans',sans-serif;
   background:var(--cream);
   color:var(--ink);
   overflow-x:hidden;
@@ -25,7 +25,7 @@ a{text-decoration:none;color:inherit}
 /* ---------- shared buttons ---------- */
 .btn-ghost{
   display:inline-flex;align-items:center;gap:.6rem;
-  font-family:'Poppins',sans-serif;font-weight:700;
+  font-family:'DM Sans',sans-serif;font-weight:700;
   letter-spacing:.02em;
   padding:.85rem 2rem;border-radius:999px;
   border:2px solid var(--ink);background:transparent;color:var(--ink);
@@ -42,7 +42,7 @@ a{text-decoration:none;color:inherit}
 .announce-track{
   display:inline-flex;align-items:center;gap:1.4rem;
   padding:.55rem 0;
-  color:var(--cream);font-family:'Poppins',sans-serif;
+  color:var(--cream);font-family:'DM Sans',sans-serif;
   font-size:.78rem;font-weight:600;letter-spacing:.06em;
   animation:marquee 32s linear infinite;
 }
@@ -59,13 +59,13 @@ a{text-decoration:none;color:inherit}
 .brand-logo{height:52px;width:auto;display:block}
 .nav-links{display:flex;gap:2.6rem}
 .nav-links a{
-  font-family:'Poppins',sans-serif;font-weight:600;
+  font-family:'DM Sans',sans-serif;font-weight:600;
   font-size:.82rem;letter-spacing:.06em;color:var(--ink);
 }
 .nav-links a:hover{color:var(--green)}
 .nav-right{display:flex;align-items:center;gap:1.4rem}
 .pincode{
-  font-family:'Poppins',sans-serif;font-weight:600;
+  font-family:'DM Sans',sans-serif;font-weight:600;
   font-size:.82rem;letter-spacing:.05em;
 }
 .cart{background:none;border:none;cursor:pointer;display:flex}
@@ -84,7 +84,7 @@ a{text-decoration:none;color:inherit}
 }
 .hero-copy{max-width:560px;color:var(--cream)}
 .eyebrow{
-  font-family:'Poppins',sans-serif;font-weight:700;
+  font-family:'DM Sans',sans-serif;font-weight:700;
   letter-spacing:.14em;font-size:.8rem;color:var(--cream);margin-bottom:1rem;
 }
 .hero-title{
@@ -92,7 +92,7 @@ a{text-decoration:none;color:inherit}
   font-size:clamp(2.4rem,5vw,3.8rem);line-height:1.05;margin-bottom:1.4rem;
 }
 .hero-sub{
-  font-family:'Poppins',sans-serif;font-weight:500;
+  font-family:'DM Sans',sans-serif;font-weight:500;
   letter-spacing:.08em;font-size:.82rem;line-height:1.9;
   color:#f3ead2;margin-bottom:1.8rem;opacity:.95;
 }
@@ -100,11 +100,11 @@ a{text-decoration:none;color:inherit}
 /* ---------- perfect cup ---------- */
 .perfect{background:var(--cream);text-align:center;padding:4.5rem 5vw 3rem}
 .perfect h2{
-  font-family:'Poppins',sans-serif;font-weight:700;
-  font-size:clamp(2rem,4.5vw,3.2rem);color:var(--ink);
+  font-family:'Fraunces',serif;font-weight:600;
+  font-size:clamp(2rem,4.5vw,3.2rem);line-height:1.05;letter-spacing:-.01em;color:var(--ink);
 }
 .serif{
-  font-family:'Playfair Display',serif;font-style:italic;font-weight:500;
+  font-family:'Fraunces',serif;font-style:italic;font-weight:500;
   color:var(--ink);
 }
 .perfect .serif{font-size:clamp(1rem,2vw,1.35rem);margin-top:.6rem;opacity:.85}
@@ -116,20 +116,20 @@ a{text-decoration:none;color:inherit}
   align-items:center;padding:2rem 5vw 4.5rem;
 }
 .mannat-title{
-  font-family:'Poppins',sans-serif;font-weight:800;
-  font-size:clamp(2rem,4.4vw,3.4rem);color:var(--ink);margin-bottom:1.4rem;
+  font-family:'Fraunces',serif;font-weight:600;
+  font-size:clamp(2.2rem,4.8vw,3.8rem);line-height:1;letter-spacing:-.015em;color:var(--ink);margin-bottom:1.4rem;
 }
 .body-copy{
-  font-family:'Quicksand',sans-serif;font-weight:500;
-  font-size:1.06rem;line-height:1.75;max-width:620px;text-align:justify;color:#2a2113;
+  font-family:'DM Sans',sans-serif;font-weight:500;
+  font-size:1.06rem;line-height:1.75;max-width:60ch;text-align:left;color:#2a2113;
 }
 .sizes-title{
-  font-family:'Poppins',sans-serif;font-weight:800;
-  font-size:clamp(1.6rem,3.4vw,2.4rem);margin:2.2rem 0 1.2rem;color:var(--ink);
+  font-family:'Fraunces',serif;font-weight:600;
+  font-size:clamp(1.6rem,3.4vw,2.4rem);letter-spacing:-.01em;margin:2.2rem 0 1.2rem;color:var(--ink);
 }
 .sizes{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1.6rem}
 .size{
-  font-family:'Poppins',sans-serif;font-weight:700;font-size:1.15rem;
+  font-family:'DM Sans',sans-serif;font-weight:700;font-size:1.15rem;
   color:var(--cream);background:var(--green);border:none;cursor:pointer;
   padding:.8rem 2.2rem;border-radius:999px;transition:.2s;
 }
@@ -140,7 +140,7 @@ a{text-decoration:none;color:inherit}
 .product-art{position:relative;display:flex;justify-content:center;align-items:flex-start}
 .art-note{
   position:absolute;top:-6px;right:2%;z-index:3;
-  font-family:'Quicksand',sans-serif;font-weight:600;font-size:.8rem;
+  font-family:'DM Sans',sans-serif;font-weight:600;font-size:.8rem;
   color:var(--ink);text-align:left;line-height:1.3;
 }
 .art-note::before{
@@ -217,25 +217,25 @@ a{text-decoration:none;color:inherit}
 .why-content{padding:3rem 4vw}
 .eyebrow.dark{color:#e9f2d8;letter-spacing:.16em}
 .why-content h2{
-  font-family:'Poppins',sans-serif;font-weight:700;color:var(--cream);
-  font-size:clamp(1.9rem,4vw,3rem);margin-bottom:1.2rem;
+  font-family:'Fraunces',serif;font-weight:600;color:var(--cream);
+  font-size:clamp(1.9rem,4vw,3rem);line-height:1.05;letter-spacing:-.01em;margin-bottom:1.2rem;
 }
 .serif.light{color:#f2f6e6}
 .verse{font-size:clamp(1rem,1.7vw,1.25rem);line-height:1.7;margin-bottom:2.4rem}
 .features{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;text-align:center}
 .feature .ic{width:52px;height:52px;fill:none;stroke:#0e2a13;stroke-width:2;
   stroke-linecap:round;stroke-linejoin:round;margin:0 auto .7rem}
-.feature p{font-family:'Poppins',sans-serif;font-weight:600;font-size:.8rem;
+.feature p{font-family:'DM Sans',sans-serif;font-weight:600;font-size:.8rem;
   color:#0f2a13;letter-spacing:.02em;line-height:1.35}
 
 /* ---------- cta ---------- */
 .cta{background:var(--cream);text-align:center;padding:3.5rem 5vw 2.5rem}
-.cta h2{font-family:'Poppins',sans-serif;font-weight:800;
-  font-size:clamp(1.7rem,3.6vw,2.6rem);color:var(--ink);letter-spacing:.02em}
+.cta h2{font-family:'Fraunces',serif;font-weight:600;
+  font-size:clamp(1.9rem,3.9vw,2.9rem);color:var(--ink);letter-spacing:-.01em}
 .discount{background:var(--green);overflow:hidden;white-space:nowrap}
 .discount-track{
   display:inline-flex;align-items:center;gap:1.4rem;padding:.7rem 0;
-  color:var(--cream);font-family:'Quicksand',sans-serif;font-weight:600;
+  color:var(--cream);font-family:'DM Sans',sans-serif;font-weight:600;
   font-size:.92rem;animation:marquee 26s linear infinite;
 }
 .cta-btn{background:var(--cream);text-align:center;padding:3.5rem 5vw 3rem}
@@ -243,14 +243,14 @@ a{text-decoration:none;color:inherit}
 /* ---------- footer ---------- */
 .footer{background:var(--cream);text-align:center;padding:1rem 5vw 4rem}
 .footer h2{
-  font-family:'Poppins',sans-serif;font-weight:800;color:var(--dark);
-  font-size:clamp(1.8rem,4vw,3rem);letter-spacing:.01em;margin-bottom:.8rem;
+  font-family:'Fraunces',serif;font-weight:600;color:var(--dark);
+  font-size:clamp(1.8rem,4vw,3rem);letter-spacing:-.01em;margin-bottom:.8rem;
 }
-.addr{font-family:'Quicksand',sans-serif;font-weight:600;
+.addr{font-family:'DM Sans',sans-serif;font-weight:600;
   font-size:clamp(1.1rem,2.2vw,1.6rem);color:var(--olive-text);margin-bottom:2.6rem}
 .foot-cols{display:flex;justify-content:space-between;gap:2rem;max-width:1100px;margin:0 auto}
 .foot-cols div{display:flex;flex-direction:column;gap:.3rem;color:var(--dark);
-  font-family:'Quicksand',sans-serif}
+  font-family:'DM Sans',sans-serif}
 .foot-cols span{font-weight:600;font-size:1rem;opacity:.9}
 .foot-cols strong{font-weight:700;font-size:1.05rem}
 
